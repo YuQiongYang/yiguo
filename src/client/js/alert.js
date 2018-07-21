@@ -11,7 +11,7 @@ define(function() {
         var dcfg={
             msg:"提示信息",
             postion:"top",//展示位置，可能值：bottom,top,middle,默认top：是因为在mobile web环境下，输入法在底部会遮挡toast提示框
-            time:3000,//展示时间
+            time:500,//展示时间
         };
         //*********************以下为参数处理******************
         var len = arguments.length;

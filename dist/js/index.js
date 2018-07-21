@@ -5936,7 +5936,7 @@ define('alert', [], function () {
         var dcfg = {
             msg: '提示信息',
             postion: 'top',
-            time: 3000
+            time: 500
         };
         var len = arguments.length;
         var arg0 = arguments[0];

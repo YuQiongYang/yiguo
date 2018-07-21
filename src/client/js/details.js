@@ -138,7 +138,7 @@ define(['jquery', 'httpclient','alert'], function ($, http,Jalert) {
         })
     })
     $('.account').click(function () {
-        if ($(this).parent().siblings('main').find('.pre').siblings('span').text() > 1) {
+        if ($(this).parent().siblings('main').find('.pre').siblings('span').text() > 0) {
             var l = false;
             var lres = window.localStorage.getItem('goodslist');
             lres = JSON.parse(lres);
