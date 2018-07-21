@@ -1,0 +1,96 @@
+body {
+    width: 100%;
+    background-color: #fff;
+    .ct {
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: .101067rem .128rem;
+        height: .546667rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .ct_l {
+            direction: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 79%;
+            border-radius: 2.1rem;
+            background-color: #f4f4f4;
+            color: #ccc;
+            font-size: .16rem;
+            padding-left: .133333rem;
+            input {
+                font-size: .16rem;
+                display: inline-block;
+                width: 75%;
+                
+                height: .321333rem;
+                border: none;
+                background-color: #f4f4f4;
+            }
+        }
+        .ct_r {
+            width: 20%;
+            padding-left: 5%;
+            button {
+                border: none;
+                color: #11B57C;
+                background-color: #fff;
+                line-height: .321333rem;
+            }
+        }
+    }
+    main {
+        display: flex;
+        height: 100%;
+        .cl {
+            width: 25%;
+            position: fixed;
+            top: .546667rem;
+            left: 0;
+            display: flex;
+            font-size: .186667rem;
+            padding: 0 .2rem 0 0;
+            text-align: center;
+            height: 7.413333rem;
+            >ul {
+                width: 100%;
+                padding-top: .546667rem;
+                overflow-x: hidden;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                background: #f4f4f4;
+                >li {
+                    height: .68rem;
+                    padding: .278667rem 0;
+                    text-align: center;
+                }
+            }
+        }
+        .cr {
+           
+            width: 100%;
+            padding-left: 25%;
+            padding-top: .533333rem;
+            a {
+                display: inline-block;
+                margin: 0 auto;
+                width: 33.3%;
+                height: 1.28rem;
+                font-size: .186667rem;
+                text-align: center;
+                img {display: inline-block;
+                    width: .76rem;
+                    height: .76rem;
+                    margin: 0 .173333rem;
+                }
+            }
+        }
+    }
+}
+
+

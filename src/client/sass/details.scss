@@ -1,0 +1,158 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+    body {
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+        main {
+            padding-bottom: .8rem;
+            .banner {
+                .forback {
+                    position: fixed;
+                    top: .24rem;
+                    left: .24rem;
+                    z-index: 100;
+                    display: inline-block;
+                    width: .450667rem;
+                    height: .450667rem;
+                    background: url('https://img06.yiguoimg.com/d/web/180530/01261/141440/goback.png') no-repeat;
+                    background-size: 100%;
+                }
+                .swiper-container {
+                    width: 100%;
+                    height: 100%;
+                    .swiper-slide {
+                        text-align: center;
+                        font-size: 18px;
+                        background: #fff;
+                        img {
+                            display: inline-block;
+                            width: 100%;
+                            height: 5rem;
+                        }
+                    }
+                }
+            }
+            .productInfo {
+                padding: .18116rem 0 .16rem .128827rem;
+                height: 1.903547rem;
+                .title {
+                    line-height: .32rem;
+                    font-size: .213333rem;
+                    color: #333;
+                }
+                .subhead {
+                    padding: .20064rem 0;
+                    span {
+                        color: #1fa44b;
+                        padding: .066667rem;
+                        border: 1px solid #1fa44b;
+                        border-radius: .133333rem;
+                    }
+                }
+                .price {
+                    color: #ff6353;
+                    font-size: .32rem;
+                }
+                .sevenday {
+                    color: #aaa;
+                }
+            }
+            .sale {
+                position: relative;
+                overflow: hidden;
+                .promotion {
+                    padding: .173333rem .1288rem;
+                    color: #808080;
+                }
+                .label {
+                    position: absolute;
+                    top: .533333rem;
+                    left: .08rem;
+                    padding: .048rem .026667rem;
+                    background-color: #11b57c;
+                    color: #fff;
+                }
+                .tip {
+                    float: left;
+                    padding-left: .6rem;
+                }
+                .goback {
+                    font-size: .213333rem;
+                    padding-right: .133333rem;
+                    float: right;
+                }
+            }
+            .norms {
+                .owned {
+                    padding: .141333rem .128933rem;
+                    font-size: .213333rem;
+                }
+                .size{
+                    span{
+                        padding: .060387rem .08rem;
+                    }
+                }
+                .num{
+                    p{
+                        display: inline-block;
+                        border: 1px solid #ccc;
+                        margin-left: .133333rem;
+                        i{
+                            
+                            display: inline-block;
+                            width: .26708rem;
+                            height: .213747rem;
+                            text-align: center;
+                        }
+                        span{
+                            border-left: 1px solid #ccc;
+                            border-right: 1px solid #ccc;
+                            padding: 0 .166667rem; 
+                        }
+                    }
+                }
+            }
+        }
+        .footer{
+            width: 100%;
+            background-color: #fff;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            padding-left: .128rem;
+            height: .64396rem;
+            .d_left{
+                display: flex;
+                justify-content: space-around;
+            }
+            a{  
+                width: .75rem;
+                align-items: center;
+                justify-content: space-around;
+                height: .64396rem;
+                display: flex;
+                flex-direction: column;
+                color: #8d8a8a;
+                .fa{
+                    font-size: .32rem;
+                    color: #8d8a8a;
+                }
+            }
+            .account{
+                float: right;
+                color: #fff;
+                background-color: red;
+                float: right;
+                width: 1.5rem;
+                height: .64396rem;
+            }
+        }
+    }
+}

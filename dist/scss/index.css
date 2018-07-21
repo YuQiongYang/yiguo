@@ -1,0 +1,268 @@
+html body {
+  width: 100%;
+  background: #fff;
+}
+
+html body .j-main {
+  height: 100%;
+  position: relative;
+}
+
+html body .j-main header {
+  z-index: 1111;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  background-color: #0eb27b;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  overflow: hidden;
+  height: .466667rem;
+}
+
+html body .j-main header .y_h_left {
+  display: flex;
+  width: 20%;
+  height: .466667rem;
+  line-height: .466667rem;
+  position: relative;
+  justify-content: center;
+}
+
+html body .j-main header .y_h_left a {
+  color: #f0edef;
+  font-size: .213333rem;
+  position: relative;
+}
+
+html body .j-main header .y_h_left a .fa {
+  font-size: .213333rem;
+  position: absolute;
+  top: .146667rem;
+  right: -0.226667rem;
+  color: #f0edef;
+  display: inline-block;
+  width: .1rem;
+  height: .053333rem;
+}
+
+html body .j-main header .y_h_right {
+  display: flex;
+  margin-left: .366667rem;
+  width: 79%;
+  align-items: center;
+  line-height: .233333rem;
+  height: .333333rem;
+  background-color: #36db84;
+  border-radius: .266667rem;
+  padding-left: .066667rem;
+}
+
+html body .j-main header .y_h_right .fa {
+  font-size: .213333rem;
+  color: #f0edef;
+  float: left;
+}
+
+html body .j-main header .y_h_right input {
+  padding-left: .133333rem;
+  border: none;
+  background-color: #36db84;
+  width: 3.2rem;
+  height: .333333rem;
+  float: right;
+}
+
+html body .j-main main {
+  padding-top: .466667rem;
+  overflow-x: hidden;
+  padding-bottom: 1.4rem;
+  flex: 1;
+}
+
+html body .j-main main .banner .swiper-container {
+  width: 100% !important;
+}
+
+html body .j-main main .banner .swiper-container .swiper-wrapper .swiper-slide {
+  width: 100% !important;
+  height: 2.893333rem;
+  background: #d6d6d7 url(//img02.yiguo.com/e/web/150930/00982/163525/placeholder_140x140.png) no-repeat 50%;
+}
+
+html body .j-main main .banner .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 2.893333rem;
+}
+
+html body .j-main main .banner .active {
+  background: #d6d6d7 url(//img02.yiguo.com/e/web/150930/00982/163525/placeholder_140x140.png) no-repeat 50%;
+}
+
+html body .j-main main .banner .active img {
+  width: 100%;
+  height: 1.52rem;
+}
+
+html body .j-main main .classify {
+  width: 100%;
+  display: flex;
+  padding: .136rem .084rem .008rem .084rem;
+  justify-content: space-between;
+  background: url("http://img12.yiguoimg.com/d/items/2018/180710/9288725887886570_1125x480.jpg?") no-repeat 0 0;
+  background-size: 100% 100%;
+  flex-wrap: wrap;
+}
+
+html body .j-main main .classify a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+  height: 1.206667rem;
+  padding-bottom: .186667rem;
+}
+
+html body .j-main main .classify a img {
+  width: .644rem;
+  height: .644rem;
+}
+
+html body .j-main main .classify a span {
+  font-size: .16rem;
+  color: #333333;
+}
+
+html body .j-main main .special .big > li {
+  height: 5.346667rem;
+}
+
+html body .j-main main .special .big > li > img {
+  display: inline-block;
+  width: 100%;
+  height: 2.893333rem;
+}
+
+html body .j-main main .special .big > li .swiper-container {
+  padding: .128rem 0 .234667rem .128rem;
+  text-align: center;
+}
+
+html body .j-main main .special .big > li .swiper-container .swiper-slide {
+  font-size: .16rem;
+  width: 1.413333rem !important;
+  height: 2.386667rem;
+}
+
+html body .j-main main .special .big > li .swiper-container .swiper-slide .pic {
+  width: 1.413333rem;
+  height: 1.413333rem;
+}
+
+html body .j-main main .special .big > li .swiper-container .swiper-slide .pic img {
+  display: inline-block;
+  width: 1.413333rem;
+  height: 1.413333rem;
+}
+
+html body .j-main main .special .big > li .swiper-container .swiper-slide .info {
+  width: 1.28rem;
+  padding: .08rem .08rem 0 .08rem;
+}
+
+html body .j-main main .special .big > li .swiper-container .swiper-slide .info .name {
+  width: 1.28rem;
+  overflow: hidden;
+  height: .213333rem;
+}
+
+html body .j-main main .special .big > li .swiper-container .swiper-slide .info .saletip {
+  text-align: center;
+  padding-top: .088rem;
+}
+
+html body .j-main main .special .big > li .swiper-container .swiper-slide .info .saletip span {
+  padding: 0 .08rem;
+  border: 1px solid #36db84;
+  border-radius: .133333rem;
+}
+
+html body .j-main main .special .big > li .swiper-container .swiper-slide .info .price {
+  padding-top: .066667rem;
+  text-align: center;
+}
+
+html body .j-main main .special .big > li .swiper-container .swiper-slide .info .price strong {
+  color: red;
+}
+
+html body .j-main main .prolist li {
+  display: flex;
+  padding: .2rem .128rem;
+  justify-content: space-between;
+}
+
+html body .j-main main .prolist li .lm_l {
+  width: 1.386667rem;
+  height: 1.386667rem;
+}
+
+html body .j-main main .prolist li .lm_l img {
+  width: 100%;
+  height: 100%;
+}
+
+html body .j-main main .prolist li .lm_r {
+  width: 67%;
+  font-size: .186667rem;
+}
+
+html body .j-main main .prolist li .lm_r p:nth-child(2) {
+  padding: .12rem 0;
+}
+
+html body .j-main main .prolist li .lm_r i {
+  color: #58bc58;
+  border: 1px solid #58bc58;
+}
+
+html body .j-main main .prolist li .lm_r p:last-child {
+  padding: .12rem 0;
+}
+
+html body .j-main main .prolist li .lm_r p:last-child span {
+  padding-right: .18rem;
+}
+
+html body .j-main main .prolist li .lm_r p:last-child span:first-child {
+  color: #fd3d3d;
+}
+
+html body .j-main main .prolist li .lm_r p:last-child i {
+  text-align: center;
+  line-height: .32rem;
+  width: .32rem;
+  height: .32rem;
+  border-radius: 50%;
+  float: right;
+}
+
+html body .jumpTop {
+  display: none;
+  border-radius: 50%;
+  z-index: 100;
+  background-color: #fff;
+  position: fixed;
+  bottom: 9%;
+  right: 5%;
+  height: .4rem;
+}
+
+html body .jumpTop img {
+  display: inline-block;
+  width: .4rem;
+  height: .4rem;
+}

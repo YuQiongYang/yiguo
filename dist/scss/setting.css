@@ -1,0 +1,64 @@
+body {
+  background: #f4f4f4;
+}
+
+.j-setting {
+  padding-top: .706667rem;
+}
+
+.j-setting ul {
+  position: relative;
+  background: #fff;
+  margin-bottom: .12rem;
+}
+
+.j-setting ul .list {
+  padding: .066667rem;
+  padding-left: .2rem;
+  border-bottom: .013333rem solid #ddd;
+}
+
+.j-setting ul .list a {
+  display: inline-block;
+  width: 100%;
+  font-size: .16rem;
+  position: relative;
+  color: #333;
+}
+
+.j-setting ul .list a span {
+  float: left;
+}
+
+.j-setting ul .list a i {
+  float: right;
+  padding-right: .24rem;
+  color: #11b57c;
+}
+
+.j-setting ul .list a em {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: .026667rem;
+  display: inline-block;
+  width: .106667rem;
+  height: .173333rem;
+  background: url(//img05.yiguoimg.com/d/web/180313/01318/155922/gopage2.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.j-setting .btn a {
+  background: #fff;
+  display: block;
+  width: 1.906667rem;
+  height: .48rem;
+  border: 1px solid #11b57c;
+  color: #11b57c;
+  font-size: .173333rem;
+  border-radius: .053333rem;
+  margin: .32rem auto;
+  padding: .133333rem 0;
+  box-sizing: border-box;
+  text-align: center;
+}

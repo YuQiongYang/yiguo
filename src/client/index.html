@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" id="vp">
+    <link href="https://cdn.bootcss.com/Swiper/4.3.0/css/swiper.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../dist/scss/base.css">
+    <title>Document</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/Swiper/4.3.0/js/swiper.js"></script>
+    <script src="https://cdn.bootcss.com/require.js/2.3.5/require.js" data-main="js/index.js"></script>
+
+    <script type="text/javascript">
+        // 把尺寸放大N倍（N是window.devicePixelRatio）
+        var wd = document.documentElement.clientWidth*window.devicePixelRatio/10;
+        //物理像素*设备像素比=真实像素
+        document.getElementsByTagName("html")[0].style.fontSize = wd + "px";
+    </script>
+</head>
+
+<body>
+    <div class="j-main"></div>
+    <div class="j-footer"></div>
+</body>
+</html>

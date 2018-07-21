@@ -1,0 +1,476 @@
+@charset "UTF-8";
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+input,
+img,
+ul,
+li,
+ol,
+dl,
+dt,
+dd {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+  border: 0;
+}
+
+input {
+  outline: none;
+}
+
+header,
+footer,
+section,
+main,
+nav {
+  display: block;
+}
+
+body {
+  font-size: 24px;
+  font-family: "΢���ź�";
+  color: #3e3e3e;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+@font-face {
+  font-family: "iconfont";
+  src: url("../font/iconfont.eot?t=1484793044531");
+  /* IE9*/
+  src: url("../font/iconfont.eot?t=1484793044531#iefix") format("embedded-opentype"), url("../font/iconfont.woff?t=1484793044531") format("woff"), url("../font/iconfont.ttf?t=1484793044531") format("truetype"), url("../font/iconfont.svg?t=1484793044531#iconfont") format("svg");
+  /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 0.426667rem;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-caidan:before {
+  content: "\f000d";
+}
+
+.icon-erweima:before {
+  content: "\f0050";
+}
+
+.icon-tuichu:before {
+  content: "\e796";
+}
+
+.icon-my:before {
+  content: "\e607";
+}
+
+.icon-fangdajing:before {
+  content: "\e653";
+}
+
+.icon-shouyeshouye:before {
+  content: "\e600";
+}
+
+.icon-camera:before {
+  content: "\e501";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+#big {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+@media screen and (min-device-width: 375px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+
+/* rem */
+@media only screen and (max-width: 1080px), only screen and (max-device-width: 1080px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+
+@media only screen and (max-width: 960px), only screen and (max-device-width: 960px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+
+@media only screen and (max-width: 720px), only screen and (max-device-width: 720px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+
+@media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+
+@media only screen and (max-width: 414px), only screen and (max-device-width: 414px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+
+@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+
+@media only screen and (max-width: 375px), only screen and (max-device-width: 375px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+
+@media only screen and (max-width: 360px), only screen and (max-device-width: 360px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) and (max-height: 416px), only screen and (max-device-width: 320px) and (max-device-height: 480px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+
+@media only screen and (max-width: 240px), only screen and (max-device-width: 240px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+
+.lt {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: .08rem;
+}
+
+.lt .lt_l {
+  width: 5%;
+}
+
+.lt .lt_r {
+  padding: 0 .906667rem 0 1.12rem;
+  direction: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 92%;
+  font-size: .16rem;
+  padding-left: .133333rem;
+  text-align: center;
+  line-height: .413333rem;
+}
+
+.lt .lt_r .fa {
+  font-size: .24rem;
+}
+
+.j-footer {
+  z-index: 99;
+  position: fixed;
+  bottom: -0.466667rem;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 1.213333rem;
+  padding: 0 .146667rem;
+  background: #fff;
+  border: .013333rem solid #ccc;
+}
+
+.j-footer .j-footer-in {
+  width: 100%;
+  height: .68rem;
+}
+
+.j-footer .j-footer-in a {
+  position: relative;
+  display: inline-block;
+  float: left;
+  box-sizing: border-box;
+  width: 20%;
+  height: 100%;
+  z-index: 99;
+  padding-top: .493333rem;
+  text-align: center;
+  font-size: .146667rem;
+  color: #8d8a8a;
+}
+
+.j-footer .j-footer-in a .icon {
+  position: absolute;
+  top: .12rem;
+  left: 50%;
+  display: inline-block;
+  width: .426667rem;
+  height: .32rem;
+  margin-left: -0.213333rem;
+}
+
+.j-footer .j-footer-in a .icon-large {
+  font-size: .266667rem;
+}
+
+.j-footer .j-footer-in .active {
+  color: #11b57c;
+}
+
+.web_toast {
+  position: fixed;
+  margin: 0 10px;
+  z-index: 9999;
+  display: none;
+  display: block;
+  padding: 10px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: .186667rem;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.web_toast .cx_mask_transparent {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* 提示弹层 */
+.c-float-modePop {
+  text-align: center;
+  background-color: #fff;
+  z-index: 99;
+}
+
+.c-float-modePop .warnMsg {
+  padding: 20px 10px 10px 10px;
+  color: #fff;
+}
+
+.c-float-modePop .doBtn {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.c-float-modePop button {
+  padding: 6px 9px 6px 9px;
+  color: #949494;
+  border: 0;
+}
+
+.c-float-shade {
+  width: 100%;
+  display: block;
+  position: absolute;
+  z-index: 99;
+  background-color: #000;
+  opacity: .5;
+  top: 0;
+  left: 0;
+}
+
+.c-float-shade.hide {
+  display: none;
+}
+
+/*  一个*/
+.c-float-popWrap {
+  width: 85%;
+  z-index: 9999;
+  position: fixed;
+  border-radius: 3px;
+  overflow: hidden;
+  z-index: 10000;
+  border: 1px solid #ccc;
+  box-shadow: 10px 10px 10px #ccc;
+}
+
+.c-float-popWrap .c-float-modePop {
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.c-float-popWrap .c-float-modePop .warnMsg {
+  padding: 0.8em 0 0.8em;
+  font-size: 15px;
+  color: #333;
+}
+
+.c-float-popWrap .c-float-modePop .content {
+  padding: 0 20px;
+  font-size: .213333rem;
+  color: #888;
+  word-wrap: break-word;
+  word-break: break-all;
+  text-align: left;
+  text-align: center;
+}
+
+.c-float-popWrap .c-float-modePop .doBtn {
+  width: 100%;
+  margin-top: 15px;
+  position: relative;
+}
+
+.c-float-popWrap .c-float-modePop .doBtn:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid #D5D5D6;
+  color: #D5D5D6;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.c-float-popWrap .c-float-modePop button {
+  background-color: #fff;
+  width: 50%;
+  height: 42px;
+  line-height: 42px;
+  color: #444;
+  font-size: 17px;
+  border: 0;
+  padding: 0;
+}
+
+.c-float-popWrap .c-float-modePop button.ok {
+  background: #0BB20C;
+  color: #fff;
+}
+
+.c-float-popWrap .c-float-modePop button.cancel {
+  position: relative;
+}
+
+.c-float-popWrap .c-float-modePop button.cancel:after {
+  content: " ";
+  position: absolute;
+  right: -1px;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  border-left: 1px solid #D5D5D6;
+  color: #D5D5D6;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scaleX(0.5);
+  transform: scaleX(0.5);
+}
+
+.c-float-popWrap.hide {
+  display: none;
+  -webkit-box-shadow: none;
+}
+
+.c-float-popWrap.show {
+  display: block;
+  z-index: 100;
+}
+
+.c-float-popWrap.msgMode .c-float-modePop .content, .c-float-popWrap.msgMode .c-float-modePop .doBtn {
+  display: none;
+}
+
+.c-float-popWrap.alertMode .c-float-modePop .doBtn .cancel {
+  display: none;
+}
+
+/* 一个 */
+.c-float-popWrap.confirmMode .c-float-modePop .content, .c-float-popWrap.confirmMode .c-float-modePop .doBtn {
+  display: block;
+  z-index: 100;
+}

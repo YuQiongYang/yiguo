@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../dist/scss/base.min.css">
+    <link rel="stylesheet" href="../../dist/scss/list.min.css">
+    <script src="https://cdn.bootcss.com/Swiper/4.3.0/js/swiper.js"></script>
+    <script src="https://cdn.bootcss.com/require.js/2.3.5/require.js" data-main="js/list.js"></script>
+    <title>列表</title>
+    <script type="text/javascript">
+        // 把尺寸放大N倍（N是window.devicePixelRatio）
+        var wd = document.documentElement.clientWidth*window.devicePixelRatio/10;
+        //物理像素*设备像素比=真实像素
+        document.getElementsByTagName("html")[0].style.fontSize = wd + "px";
+    </script>
+</head>
+
+<body>
+    <div class="lt">
+        <div class="lt_l">
+            <a href="javascript:">
+                <i class="fa fa-angle-left "></i>
+            </a>
+        </div>
+        <div class="lt_r">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="请输入商品名称">
+        </div>
+    </div>
+    <div class="nav">
+        <span>销量</span>
+        <span>新品</span>
+        <span>价格
+            <i class="fa fa-caret-up"></i>
+            <i class="fa fa-caret-down"></i>
+        </span>
+    </div>
+    <main>
+        <ul>
+            <!-- <li>
+                <div class="lm_l">
+                    <i>抢光了</i>
+                    <img src="" alt="">
+                </div>
+                <div class="lm_r">
+                    <p></p>
+                    <p></p>
+                    <i></i>
+                    <p>
+                        <span></span>
+                        <span></span>
+                        <i class="fa fa-plus"></i>
+                    </p>
+                </div>
+            </li> -->
+        </ul>
+        <div class="bottom">
+            <p>- 没有更多了 -</p>
+        </div>
+        <div class="fix">
+            <a href="javascript:;" class="fix-a"></a>
+            <a href="javascript:;"></a>
+        </div>
+    </main>
+</body>
+<!-- <script>
+    require.config({
+        path: {
+            'jquery': './jquery',
+            'httpclient': './httpclient',
+            'list': './list.js'
+        }
+    })
+    require(['jquery', 'httpclient', 'list'], function ($, http, list) {
+        list.b();
+    })
+</script> -->
+
+</html>

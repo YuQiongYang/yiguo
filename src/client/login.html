@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../dist/scss/base.css">
+    <link rel="stylesheet" href="../../dist/scss/login.css">
+    <title>Document</title>
+    <script src="../client/js/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/require.js/2.3.5/require.js" data-main="js/login.js"></script>
+   
+    <script type="text/javascript">
+        // 把尺寸放大N倍（N是window.devicePixelRatio）
+        var wd = document.documentElement.clientWidth * window.devicePixelRatio / 10;
+        //物理像素*设备像素比=真实像素
+        document.getElementsByTagName("html")[0].style.fontSize = wd + "px";
+    </script>
+</head>
+
+<body>
+    <div class="hr"></div>
+    <div class="j-input-item">
+        <div class="input-item-list yanzheng-div">
+            <i class="icon-username"></i>
+            <input type="text" name="" id="username" placeholder="请输入您的用户名">
+        </div>
+        <div class="yanzheng-div">
+            <i class="icon-password"></i>
+            <input type="text" id="upassword" placeholder="请输入你的密码  6-20位">
+        </div>
+        <div class="yanzheng-div">
+            <input type="text" id="affirm" placeholder="请输入当前验证码">
+            <span class="yanzheng"></span>
+        </div>
+        <div class="login-option">
+            <span class="retrieve_password">
+                <a href="javascript:;">忘记密码?</a>
+            </span>
+        </div>
+    </div>
+    <div class="j-btn-login clearfix">
+        <a href="javascript:;" class="j-login">登录</a>
+        <a href="javascript:;" class="j-register">立即注册</a>
+    </div>
+    <div class="j-bottomcopyright">
+        <em class="yiguo_logo"></em>
+    </div>
+</body>
+</html>

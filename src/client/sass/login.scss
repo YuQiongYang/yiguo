@@ -1,0 +1,137 @@
+body{
+    background: #f8f8f8;
+}
+.hr{
+    padding-top: .4rem;
+    background: #f8f8f8;
+}
+.j-input-item{
+    padding: 0 0 0 .266667rem;
+    background: #fff;
+    border-top:1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    .yanzheng-div{
+        position: relative;
+        width: 100%;
+        height: .813333rem;
+        border-bottom: .013333rem solid #e7e7e7;
+        padding:.2rem 0 0 0;
+        
+        input{
+            position: relative;
+            padding: .2rem  .7rem;
+            display: block;
+            height: .4rem;
+            width: 100%;
+            font-size: .213333rem;
+            border: none;
+            background: none;
+        }
+        i{
+            display: block;
+            position: absolute;
+            top: .266667rem;
+            left: .266667rem;
+            width: .24rem;
+            height: .266667rem;
+        }
+        span{
+            float: right;
+            position: absolute;
+            right: .133333rem;
+            width: .906667rem;
+            height: .4rem;
+            top: .2rem;
+            font-size: .186667rem;
+            border: .013333rem solid #ccc;
+            text-align: center;
+            line-height: .4rem;
+        }
+        .icon-username {
+            background: url(//img07.yiguoimg.com/e/web/160104/02423/150313/icon_username.png) no-repeat;
+            background-size: 100% 100%;
+        }
+        .icon-password{
+            background: url(//img07.yiguoimg.com/e/web/160104/02423/150313/icon_password.png) no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+    .login-option {
+        width: 100%;
+        padding: .133333rem .4rem 0 .266667rem;
+        float: left;
+        .retrieve_password {
+            float: left;
+            width: 45%;
+            text-align: left;
+            a {
+                color: #008842;
+                font-size: .2rem;
+            }
+        }
+    }
+}
+.j-btn-login {
+    padding: .4rem .4rem 0;
+    text-align: center;
+    margin-top: .4rem;
+    a{
+        display: inline-block;
+        width: 45%;
+        height: .533333rem;
+        border: none;
+        border-radius: .053333rem;
+        font-size: .213333rem;
+        color: #fff;
+        background: #008842;
+        line-height: .533333rem;
+        float: left;
+    }
+    .j-register{
+        border: 1px solid #008842;
+        color: #008842;
+        background: #fff;
+        float: right;
+    }
+}
+.j-bottomcopyright{
+    width: 100%;
+    text-align: center;
+    bottom: 15px;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    box-sizing: border-box;
+    .yiguo_logo{
+            width: 104px;
+            height: 34px;
+            background-image: url(//img02.yiguo.com/e/web/150924/00982/140710/yiguo_logo.png);
+            background-size: 100% 100%;
+            margin: 0 auto;
+            display: block;
+    }
+}
+
+//弹窗样式 
+.web_toast{
+    position: fixed;
+	margin: 0 10px;
+    z-index: 9999;
+    display: none;
+    display: block;
+    padding: 10px;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.7);
+    font-size: .186667rem;
+    text-align: center;
+    border-radius: 4px;
+    .cx_mask_transparent{
+        position: fixed;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.1);
+    }
+}

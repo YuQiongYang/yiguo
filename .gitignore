@@ -1,0 +1,14 @@
+
+#过滤文件夹
+node_modules
+
+#过滤文件
+*.zip
+*.mp3
+*.mp4
+
+#过滤iconfont
+src/iconfont
+
+#过滤所有文件夹
+img/

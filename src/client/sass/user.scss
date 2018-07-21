@@ -1,0 +1,181 @@
+body {
+    background: #f4f4f4;
+}
+
+.j-loginNot {
+    .j-header {
+        position: relative;
+        width: 100%;
+        height: 2.399333rem;
+        background: #2dd282 url(https://img06.yiguoimg.com/d/web/180517/01262/143351/bgimg.jpg) 100% 100%;
+        background-size: 100% 100%;
+        padding: 0 0 .48rem 0;
+        box-sizing: border-box;
+        display: flex;
+        .headerImg {
+            position: relative;
+            display: inline-block;
+            height: .035733rem;
+            margin-top: .373333rem;
+            padding: 0 .32rem 0 2.85rem;
+            box-sizing: border-box;
+            .imgBorder {
+                display: inline-block;
+                position: absolute;
+                left: .2rem;
+                top: 0;
+                border: .053333rem solid rgba(255, 255, 255, .5);
+                width: 1.013333rem;
+                height: 1.013333rem;
+                border-radius: 50%;
+                background: rgba(255, 255, 255, .5);
+                text-align: center;
+                img {
+                    position: absolute;
+                    top: 0;
+                    left: 0rem;
+                    width: .909733rem;
+                    height: .909733rem;
+                    border-radius: 50%;
+                }
+            }
+            a {
+                position: absolute;
+                left: 1.133333rem;
+                .name {
+                    display: inline-block;
+                    text-align: left;
+                    color: #fff;
+                    overflow: hidden;
+                    font-size: .213333rem;
+                    line-height: .693333rem;
+                    padding: .146667rem 0 0 .333333rem;
+                }
+            }
+        }
+        .setting {
+            position: absolute;
+            width: .226667rem;
+            height: .253333rem;
+            display: inline-block;
+            background: url(//img07.yiguoimg.com/d/web/180508/01319/184003/setting.png) no-repeat;
+            background-size: 100% 100%;
+            right: .16rem;
+            top: .16rem;
+        }
+        .accout {
+            height: .716533rem;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            box-sizing: border-box;
+            padding: .120773rem;
+            display: flex;
+            justify-content: space-around;
+            background: rgba(255, 255, 255, .1);
+            .j-border {
+                border-right: .013333rem dashed rgba(255, 255, 255, .5);
+            }
+            li {
+                width: 33.33%;
+                font-size: .16rem;
+                display: flex;
+                flex-wrap: wrap;
+                text-align: center;
+                a {
+                    width: 100%;
+                    color: #fff;
+                    span {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    .listTab {
+        height: 1.082667rem;
+        margin-bottom: .120773rem;
+        background: #fff;
+        position: relative;
+        ul {
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            li {
+                position: relative;
+                width: 20%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                a {
+                    width: 100%;
+                    font-size: .146667rem;
+                    text-align: center;
+                    color: #555;
+                    height: 100%;
+                    i {
+                        display: inline-block;
+                        width: 100%;
+                        height: .696453rem;
+                        text-align: center;
+                        line-height: .933333rem;
+                        img {
+                            display: inline-block;
+                            width: .297733rem;
+                            height: .24rem;
+                        }
+                    }
+                    span {
+                        display: inline-block;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .testList {
+        ul {
+            display: flex;
+            justify-content: space-around;
+            background: #fff;
+            align-items: center;
+            flex-wrap: wrap;
+            li {
+                height: 1.086933rem;
+                border-bottom: .013333rem solid #f4f4f4;
+                flex-direction: column;
+                flex: 25%;
+                flex-flow: column;
+                justify-content: center;
+                text-align: center;
+                a {
+                    display: inline-block;
+                    width: 100%;
+                    font-size: .146667rem;
+                    text-align: center;
+                    color: #555;
+                    height: 100%;
+                    position: relative;
+                    padding-top: .683733rem;
+                    img {
+                        position: absolute;
+                        bottom: 0;
+                        display: inline-block;
+                        width: .426667rem;
+                        height: .426667rem;
+                        bottom: .4rem;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.web_toast {
+    height: 1.333333rem;
+    line-height: 1.22222rem;
+}
